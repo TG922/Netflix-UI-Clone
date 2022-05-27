@@ -1,6 +1,9 @@
-# Netflix-UI-Clone(InProg)
+# Netflix-UI-Clone
 
-Developing a Netflix Clone using HTML5, CSS3 functionalities like Hover effects, Gradients and FlexBox and JavaScript functions like async, DOM and promises to fetch api and get data and I am also using TMDB Api where you can fetch all movie details easily. 
+I have Developed a Netflix UI Clone using HTML5, CSS3, JS with the help of TMDB API. 
+Functionalities used like FlexBox,Hover effects and Gradients.
+JavaScript functions used like async, DOM and promises to fetch the api and get the data.
+Other than that I have also used TMDB Api where we can fetch all movie data easily. 
 
 Features
 
@@ -11,6 +14,4 @@ Features
 5. Has movie trailers, and recommendations.
 6. Has smooth card slider effect.
 
-
-
-Here we will be getting movie name,cast and other details from TMDB API.
+Here we will be getting movie name, images from same movie and other data from TMDB API Call.
