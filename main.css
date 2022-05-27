@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Netflix Sans', sans-serif;
+  background-color: #111;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+  background-color: #111;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 10px;
+}
+
+#banner{
+  color: white;
+  object-fit: contain;
+  height: 844px;
+  background-position: center center;
+  background-size: cover;
+}
+
+#banner_contents{
+  margin-left: 70px;
+  padding-top: 540px;
+  height: 190px;
+
+}
+.nav{
+  position: fixed;
+  top: 0;
+  padding: 20px 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all .5s;
+}
+
+.nav.active{
+  background-color: #111;
+}
+
+#banner_title{
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.nav_logo{
+  width: 120px
+}
+
+#banner_desc{
+  width: 45rem;
+  line-height: 1.5;
+  padding-top: 1rem;
+  font-size: .9rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.nav__left{
+  margin-left: 10px;
+
+}
+
+.nav__right{
+  position: fixed;
+  right: 20px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav_avatar{
+  width: 35px;
+}
+
+#banner_button{
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: .2vw;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: .5rem;
+  background-color: rgba(51,51,51,.5);
+  padding-bottom: .5rem;
+}
+
+#banner_button:hover{
+  color: black;
+  background-color: #e6e6e6;
+  transition: all .3s;
+}
+
+#banner_fadeBottom{
+  height: 7.4rem;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37,37,37, .61),
+    #111
+  );
+}
+
+.row{
+  margin-left: 20px;
+  color: white;
+}
+
+.row_poster{
+  object-fit: contain;
+  width: 100%;
+  max-height: 120px;
+  margin-right: 10px;
+  transition: transform 500ms;
+}
+
+.row_posters::-webkit-scrollbar{
+  display: none;
+}
+
+.row_posters{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  
+}
+
+.row_poster:hover{
+  transform: scale(1.08);
+}
+
+.row_posterLarge, 
+.row_posterLarge1,
+.row_posterLarge2{
+  object-fit: contain;
+  width: 100%;
+  max-height: 250px;
+  margin-right: 10px;
+  transition: transform 500ms;
+
+}
+
+.row_posterLarge:hover,
+.row_posterLarge1:hover,
+.row_posterLarge2:hover{
+  transform: scale(1.09);
+  opacity: 1;
+
+}
