@@ -3,9 +3,9 @@
 I have Developed a Netflix UI Clone using HTML5, CSS3, JS with the help of TMDB API. 
 Functionalities used like FlexBox,Hover effects and Gradients.
 JavaScript functions used like async, DOM and promises to fetch the api and get the data.
-Other than that I have also used TMDB Api where we can fetch all movie data easily. 
+Other than that I have also used TMDB Api to fetch movies data.
 
-Features
+### Features
 
 1. Looks similar to Netflix.
 2. Dynamic site run on Node.js server.
