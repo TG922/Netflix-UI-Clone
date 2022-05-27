@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix UI Clone</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="main.css"/>
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+
+    <!-- navbar section -->
+    <div class="nav">
+      <div class="nav__left">
+        <img class="nav_logo" src="images/netflix title logo.png" alt="">
+      </div>
+
+      <div class="nav__right">
+        <img src="images/Account_logo.png" class="nav_avatar" alt="">
+      </div>
+
+    </div>
+
+
+    <!-- banner section -->
+    <header id="banner">
+      <div id="banner_contents">
+        <h1 id="banner_title"></h1>
+        <div id="banner_buttons">
+        <button id="banner_button">Play</button>
+        <button id="banner_button">My List</button>
+      </div>
+
+      <p id="banner_desc"></p>
+      </div>
+
+      <div id="banner_fadeBottom"></div>
+    </header>
+
+    <!-- rows -->
+    <div id="headrow">
+      <div class="row">
+        <h2 class="row_title"></h2>
+        <div class="row_posters"></div>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener("scroll",function(){
+
+        var nav = document.querySelector(".nav");
+        nav.classList.toggle("active", window.scrollY > 0);
+      })
+      
+    </script>
+  </body>
+</html>
