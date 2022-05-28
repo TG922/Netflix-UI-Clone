@@ -16,11 +16,9 @@ Other than that I have also used TMDB Api to fetch movies data.
 ### Features
 
 1. Looks similar to Netflix.
-2. Dynamic site run on Node.js server.
-3. All data is coming from TMDB API.
-4. Dedicated Dynamic Movies Info page.
-5. Has movie trailers, and recommendations.
-6. Has smooth card slider effect.
+2. All data is coming from TMDB API.
+3. Dedicated Dynamic Movies Info page.
+4. Has smooth card slider effect.
 
 Here we will be getting movie name, images from same movie and other data from TMDB API Call.
 
