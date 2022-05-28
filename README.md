@@ -7,6 +7,12 @@ Functionalities used like FlexBox,Hover effects and Gradients.
 JavaScript functions used like async, DOM and promises to fetch the api and get the data.
 Other than that I have also used TMDB Api to fetch movies data.
 
+### Screenshots
+
+![Image179](https://user-images.githubusercontent.com/70098839/170809560-befdc9eb-2790-4508-bcf0-d45ca1e4f936.PNG)
+
+![Image180](https://user-images.githubusercontent.com/70098839/170809570-67dd7287-b4e4-459e-a15f-59590b2fa3ba.PNG)
+
 ### Features
 
 1. Looks similar to Netflix.
@@ -18,9 +24,3 @@ Other than that I have also used TMDB Api to fetch movies data.
 
 Here we will be getting movie name, images from same movie and other data from TMDB API Call.
 
-
-### Screenshots
-
-![Image179](https://user-images.githubusercontent.com/70098839/170809560-befdc9eb-2790-4508-bcf0-d45ca1e4f936.PNG)
-
-![Image180](https://user-images.githubusercontent.com/70098839/170809570-67dd7287-b4e4-459e-a15f-59590b2fa3ba.PNG)
