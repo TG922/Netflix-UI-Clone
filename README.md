@@ -9,7 +9,7 @@
 
 ![Image180](https://user-images.githubusercontent.com/70098839/170809570-67dd7287-b4e4-459e-a15f-59590b2fa3ba.PNG)
 
-I have Developed a Netflix UI Clone using HTML5, CSS3, JS with the help of TMDB API. 
+I have Developed a Netflix UI Clone using HTML5, CSS3, JS with the help of TMDB API for retrieving data. 
 Functionalities used like FlexBox,Hover effects and Gradients.
 JavaScript functions used like async, DOM and promises to fetch the api and get the data.
 Other than that I have also used TMDB Api to fetch movies data.
