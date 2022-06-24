@@ -17,10 +17,9 @@ Other than that I have also used TMDB Api to fetch movies data.
 
 ### Features
 
-1. Looks similar to Netflix.
-2. All data is coming from TMDB API.
-3. Dedicated Dynamic Movies Info page.
-4. Has smooth card slider effect.
+1. Looks almost similar to Netflix.
+2. All data is being retrieved real-time from TMDB data using TMDB API.
+3. Has smooth card slider effect.
 
 Here we will be getting movie name, images from same movie and other data from TMDB API Call.
 
